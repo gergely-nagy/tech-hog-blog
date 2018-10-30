@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.6.3/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
+importScripts("workbox-v3.5.0/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.5.0"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,43 +26,43 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8ce8b122a2bcc7e8b1cc.js"
+    "url": "webpack-runtime-932522242394d56bf3c5.js"
   },
   {
-    "url": "app-fe5b17270925c6145d54.js"
+    "url": "app-71b7ec5988356c8a2716.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-8119d69fc94d7ce7f094.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-c96fdfe9c675340bc3e5.js"
   },
   {
     "url": "index.html",
-    "revision": "18c653eb9ab27f4f3f9d02c76c6b6455"
+    "revision": "ffa0b87ec5d8a1bc2c6926f466941860"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a3003c9388477efad4d235ce21af5df6"
+    "revision": "b0e3d69c0249a67a227c8c9001e382cf"
   },
   {
-    "url": "2.f4c9ad4cc6ab582d02fd.css"
+    "url": "2.ebfb3c2372cca6189344.css"
   },
   {
-    "url": "component---src-pages-index-js-bbee7fac7f0ac334b5b0.js"
+    "url": "component---src-pages-index-js-769a3d0ef129feeb6b0b.js"
   },
   {
-    "url": "2-595a566e760c358f2f49.js"
+    "url": "2-2c110cad4d62c71b5c4f.js"
   },
   {
-    "url": "1-db8ba38439354bbb14ef.js"
+    "url": "1-408a5478c5f56ce8b9d6.js"
   },
   {
-    "url": "0-f77690a81e80b43be9aa.js"
+    "url": "0-827baf09b6a02f506b51.js"
   },
   {
-    "url": "static/d/802/path---index-6a9-bfJ9Mh6mZiyVCgUyBnDDqctB8.json",
-    "revision": "2256fbfec3f6f62689eb1c47f0c24d70"
+    "url": "static/d/566/path---index-6a9-QT4OkEft455s58EWyDIeIDPHWR0.json",
+    "revision": "4b2d3d60f90cb645a0933b889ac60a77"
   },
   {
-    "url": "component---src-pages-404-js-677669e940178066c3e9.js"
+    "url": "component---src-pages-404-js-b809749df585a4e5d744.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tech-hog-blog/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/it-blog/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
